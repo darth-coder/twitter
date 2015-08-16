@@ -1,0 +1,22 @@
+<%= image_tag "logo.jpeg", :class => "img-circle", :size => "150x150" %>
+<table class="table">
+
+<tr>
+<th> Post </th>
+<th> Time </th>
+</tr>
+
+
+<% @microposts.each do |micropost| %>
+<tr>
+<td>
+<%= micropost.body %>
+</td>
+<td>
+<%= time_ago_in_words micropost.created_at %>
+</td>
+<br>
+</tr> 
+<% end %>
+<br>
+
