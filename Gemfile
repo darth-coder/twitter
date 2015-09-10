@@ -4,7 +4,6 @@ gem "therubyracer"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
 gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -49,10 +48,3 @@ gem 'devise'
 gem 'bootstrap-sass', '~> 3.3.5'
 
 # Adding following lines to make bundle install sqlite gem
-#group :production, :staging do
-  #    gem 'pg', '0.17.1'
- # end
-
-#group :development, :test do
-  #   gem 'pg'
- #end
